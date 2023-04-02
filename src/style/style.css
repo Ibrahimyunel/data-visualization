@@ -1,0 +1,34 @@
+body, html {
+    background-color: #f4f2ff;
+    margin: unset;
+}
+
+header {
+    width: 90vw;
+    background-color: brown;
+    margin: auto;
+    margin-bottom: 1.5em;
+    border-radius: 0 0 1em 1em;
+}
+
+main {
+    margin: 0 .5em;
+}
+
+h2 {
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+    color: #f4f2ff;
+}
+
+.chart-wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+@media only screen and (max-width:992px) {
+    .chart-wrapper {
+        width: 100%;
+    }
+}
