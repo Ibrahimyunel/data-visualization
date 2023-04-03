@@ -1,5 +1,5 @@
 import { Chart } from "chart.js/auto";
-import { DataOfCovid } from "./covid-data";
+import { DataOfCovid } from "./retrieve-data";
 
 const docObj = new DataOfCovid();
 docObj.getData();
