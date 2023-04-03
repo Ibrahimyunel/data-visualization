@@ -2,11 +2,7 @@ import axios from "axios";
 import * as groupBy from 'group-by-with';
 
 const groupByWithSum = groupBy({
-    totalCalculator: function (value/*, key*/) {
-        return value.reduce(function (sum, v) {
-            return sum + v;
-        }, 0);
-    }
+    totalCalculator: (value/*, key*/) =>  value.reduce((sum, v) => sum + v, 0)
 });
 
 export class DataOfCovid {
